@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title> Satele Moldovei mele</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            Satele Moldovei mele
+            <i class="fas fa-running logo"> </i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html"> home </a>
+            <a href="dateimp.html"> Date importante </a>
+            <a href="locuri.html"> Locuri pitorești </a>
+            <a href="contacte.html"> Contacte </a>
+        </aside>
+
+        <main>
+            <h2 class="title"> Contacte</h2>
+            <a download href="../resources/bbb.docx">
+            <i class="fas fa-file"> </i>
+            <div class="row">
+                <div class="col-50">
+                    <h3> Ne scrii ceva daca:</h3>
+                    <ul class="contact-list">
+                        <li>doresti sa adaogi vre-o fotografie frumoasă </li>
+                        <li>doresti sa adaogi vre-o legendă frumoasă </li>
+                        <li>doresti sa afli careva detaliit</li>
+                        <li>ai sugestii/propuneri</li>
+                    </ul>
+                </div>
+                <div class="col-50">
+                    <h3>Date de Contact:</h3>
+                    <ul class="contact-list">
+                        <li><b> Adresa</b> str. Vieru 17 </li>
+                        <li><b> Telefonul:</b> 022484745</li>
+                        <li><b> Ore de lucru</b> 10:00-18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42706.76113696675!2d28.643776351993246!3d48.01037574962432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ccf56b490c380b%3A0xff101f96b91813bd!2zU3RhZGlvbiBTxINuxIN0xIN1Y2E!5e0!3m2!1sru!2s!4v1627745829149!5m2!1sru!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+
+                </div>
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required />
+                            <input type="email" placeholder="Email" required />
+                            <textarea rows="3" placeholder="Mesaj" required >  </textarea>
+                            <input type="submit" value="Transmite" />
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="../js/main.js"> </script>
+</body>
+
+</html>
